@@ -1,0 +1,23 @@
+﻿@page "/index4"
+@model Index4Model
+@{
+    ViewData["Title"] = "FiboSeries page";
+}
+
+<div class="text-center">
+    <form method="post">
+        <h1 class="display-4"><b>Fibonacci Series</b></h1>
+
+        <br>
+        <label for="num1">Enter N:</label>
+        <input type="text" id="Num" name="Num" value="@Model.Num" />
+<br>
+        <button type="submit" id="btn4">Submit</button>
+        
+        <br>
+        
+</form>
+   <b>Series: @Model.Result</b>
+    <br>
+
+</div>

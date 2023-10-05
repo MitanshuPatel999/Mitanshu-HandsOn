@@ -1,0 +1,37 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <form method="post">
+        <h1 class="display-4"><b>Number Triangle</b></h1>
+        @* <a asp-page="/index2" >ex2</a> *@
+        @* <select id="SM" name="SM">
+            <option value="op1"><a href="/index1" >ex1</a></option>
+            <option value="op2"><a href="/index2" >ex2</a></option>
+            <option value="op3"><a asp-page="/index3" >ex3</a></option>
+            <option value="op4"><a asp-page="/index4" >ex4</a></option>
+        </select> *@
+        <br>
+
+
+        <label for="num">Input any number:</label>
+        <input type="text" id="Num" name="Num" value="@Model.Num"/>
+        <button type="submit" id="btn">Submit</button>
+    </form>
+<br>
+
+    <ul>
+        @for (int i = 0; i < @Model.Num; i++)
+        {
+            Model.Count++;
+            @for(int j=0;j<@Model.Count;j++){
+            <b>@Model.Num</b>
+            }
+            <br>
+        }
+    </ul>
+
+</div>

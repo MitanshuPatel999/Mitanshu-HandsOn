@@ -1,0 +1,35 @@
+﻿@page "/index3"
+@model Index3Model
+@{
+    ViewData["Title"] = "%Calc page";
+}
+
+<div class="text-center">
+    <form method="post">
+        <h1 class="display-4"><b>Enter Marks for each subject out of 100</b></h1>
+
+        <br>
+        <label for="num1">Maths         :</label>
+        <input type="text" id="Num1" name="Num1" value="@Model.Num1" />
+<br>
+        <label for="num2">Science       :</label>
+        <input type="text" id="Num2" name="Num2" value="@Model.Num2" /><br>
+
+        <label for="num2">Social Science:</label>
+        <input type="text" id="Num2" name="Num3" value="@Model.Num2" /><br>
+
+        <label for="num2">Environment   :</label>
+        <input type="text" id="Num2" name="Num4" value="@Model.Num2" /><br>
+
+        <label for="num2">English       :</label>
+        <input type="text" id="Num2" name="Num5" value="@Model.Num2" /><br>
+
+        
+        <button type="submit" id="btn2">Submit</button>
+        <br>
+        
+</form>
+   <b>Percentage(%): @Model.Result</b>
+    <br>
+
+</div>

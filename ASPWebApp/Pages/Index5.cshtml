@@ -1,0 +1,23 @@
+﻿@page "/index5"
+@model Index5Model
+@{
+    ViewData["Title"] = "FactCalc page";
+}
+
+<div class="text-center">
+    <form method="post">
+        <h1 class="display-4"><b>Factorial Calculator</b></h1>
+
+        <br>
+        <label for="num1">Enter N:</label>
+        <input type="text" id="Num" name="Num" value="@Model.Num" />
+
+        <button type="submit" id="btn5">Submit</button>
+        <br>
+        <br>
+        
+</form>
+   <b>@Model.Num!= @Model.Result</b>
+    <br>
+
+</div>

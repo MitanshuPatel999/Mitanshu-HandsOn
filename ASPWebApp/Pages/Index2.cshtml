@@ -1,0 +1,24 @@
+﻿@page "/index2"
+@model Index2Model
+@{
+    ViewData["Title"] = "Sumof2 page";
+}
+
+<div class="text-center">
+    <form method="post">
+        <h1 class="display-4"><b>Sum of two numbers</b></h1>
+
+        <br>
+        <label for="num1">Input number_1:</label>
+        <input type="text" id="Num1" name="Num1" value="@Model.Num1" />
+<br>
+        <label for="num2">Input number_2</label>
+        <input type="text" id="Num2" name="Num2" value="@Model.Num2" /><br>
+        <button type="submit" id="btn1">Submit</button>
+        <br>
+        
+</form>
+   <b>Sum: @Model.Result</b>
+    <br>
+
+</div>
