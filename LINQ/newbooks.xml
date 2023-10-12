@@ -1,0 +1,7 @@
+<Books>
+  <Book>
+    <Title>Sample Book</Title>
+    <Author>John Doe</Author>
+    <Price>19.99</Price>
+  </Book>
+</Books>
