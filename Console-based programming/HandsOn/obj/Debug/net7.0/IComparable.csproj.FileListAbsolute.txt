@@ -1,0 +1,14 @@
+C:\Users\patelmi\HandsOn\obj\Debug\net7.0\IComparable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\patelmi\HandsOn\obj\Debug\net7.0\IComparable.AssemblyInfoInputs.cache
+C:\Users\patelmi\HandsOn\obj\Debug\net7.0\IComparable.AssemblyInfo.cs
+C:\Users\patelmi\HandsOn\obj\Debug\net7.0\IComparable.csproj.CoreCompileInputs.cache
+C:\Users\patelmi\HandsOn\bin\Debug\net7.0\IComparable.exe
+C:\Users\patelmi\HandsOn\bin\Debug\net7.0\IComparable.deps.json
+C:\Users\patelmi\HandsOn\bin\Debug\net7.0\IComparable.runtimeconfig.json
+C:\Users\patelmi\HandsOn\bin\Debug\net7.0\IComparable.dll
+C:\Users\patelmi\HandsOn\bin\Debug\net7.0\IComparable.pdb
+C:\Users\patelmi\HandsOn\obj\Debug\net7.0\IComparable.dll
+C:\Users\patelmi\HandsOn\obj\Debug\net7.0\refint\IComparable.dll
+C:\Users\patelmi\HandsOn\obj\Debug\net7.0\IComparable.pdb
+C:\Users\patelmi\HandsOn\obj\Debug\net7.0\IComparable.genruntimeconfig.cache
+C:\Users\patelmi\HandsOn\obj\Debug\net7.0\ref\IComparable.dll

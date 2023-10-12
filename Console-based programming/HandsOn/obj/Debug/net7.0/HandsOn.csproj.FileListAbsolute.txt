@@ -1,0 +1,14 @@
+c:\Users\patelmi\HandsOn\bin\Debug\net7.0\HandsOn.exe
+c:\Users\patelmi\HandsOn\bin\Debug\net7.0\HandsOn.deps.json
+c:\Users\patelmi\HandsOn\bin\Debug\net7.0\HandsOn.runtimeconfig.json
+c:\Users\patelmi\HandsOn\bin\Debug\net7.0\HandsOn.dll
+c:\Users\patelmi\HandsOn\bin\Debug\net7.0\HandsOn.pdb
+c:\Users\patelmi\HandsOn\obj\Debug\net7.0\HandsOn.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\patelmi\HandsOn\obj\Debug\net7.0\HandsOn.AssemblyInfoInputs.cache
+c:\Users\patelmi\HandsOn\obj\Debug\net7.0\HandsOn.AssemblyInfo.cs
+c:\Users\patelmi\HandsOn\obj\Debug\net7.0\HandsOn.csproj.CoreCompileInputs.cache
+c:\Users\patelmi\HandsOn\obj\Debug\net7.0\HandsOn.dll
+c:\Users\patelmi\HandsOn\obj\Debug\net7.0\refint\HandsOn.dll
+c:\Users\patelmi\HandsOn\obj\Debug\net7.0\HandsOn.pdb
+c:\Users\patelmi\HandsOn\obj\Debug\net7.0\HandsOn.genruntimeconfig.cache
+c:\Users\patelmi\HandsOn\obj\Debug\net7.0\ref\HandsOn.dll
