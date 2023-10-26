@@ -1,0 +1,27 @@
+@page
+@model CRUDWebApp.Pages.SwaggerPageModel
+
+@{
+    Layout = "_Layout"; // Use your layout page
+}
+
+<h2>Swagger UI</h2>
+
+<!-- Add Swagger UI content here -->
+<div id="swagger-ui"></div>
+
+<!-- Load Swagger UI using JavaScript -->
+<script>
+    window.onload = function () {
+        const ui = SwaggerUIBundle({
+            url: "@Model.SwaggerEndpoint",
+            dom_id: '#swagger-ui',
+            deepLinking: true,
+            presets: [SwaggerUIBundle.presets.apis],
+            plugins: [SwaggerUIBundle.plugins.DownloadUrl],
+            layout: "StandaloneLayout"
+        });
+
+        window.ui = ui;
+    }
+</script>
